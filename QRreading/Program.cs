@@ -31,6 +31,7 @@ namespace QRreading
                 {
                     Console.WriteLine();
                     Console.WriteLine(result.ToString());
+                    timer.Dispose();
                     break;
                 }
         }
